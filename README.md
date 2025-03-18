@@ -11,10 +11,6 @@ Before using this Terraform configuration, ensure you have the following:
 - API Token and proper access credentials in Proxmox.
 - A configured cloud-init template if using cloud-init.
 
-## Files in this Repository
-- `main.tf` – The main Terraform configuration file defining the VM resources.
-- `terraform.tfvars` – Contains variable values for customization.
-- `terraform.tfstate` – State file that keeps track of the Terraform deployment (should not be manually modified).
 
 ## Configuration
 ### Step 1: Configure `terraform.tfvars`
